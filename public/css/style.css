@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 99%;
+    height: 100vh;
+    background-color:white;
+    margin:0.5%;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(54, 53, 53);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
+.logo{
+    display: flex;
+    color: white;
+
+}
+.logo a{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-decoration: none;
+    color: white;
+}
+.logo a span{
+    color: lime;
+}
+.logo img{
+    max-width: 100px;
+}
+
+header .links a{
+    font-size: 20px;
+    font-weight: bold;
+    color: #f3f2f2;
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+header .links :hover{
+    color: lime;
+
+}
+
+.links{
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+}
+
+
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    padding: 10px;
+}
+
+.herosection{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+
+}
+
+.ourfuture{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.rows{
+    display: flex;
+}
+.cols{
+    width: 500px;
+    height: 300px;
+    background-color: rgba(54, 53, 53, 0.5);
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.cols img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.cols button{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.cols button:hover{
+    background-color: lime;
+}
+.cols button a{
+    text-decoration: none;
+    font-weight: bold;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(54, 53, 53);
+    justify-content: center;
+    text-align: center;
+
+    align-content: center;
+}
+
+
+/* ====== style of dashboard ======== */
+
+
